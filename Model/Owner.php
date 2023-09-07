@@ -1,5 +1,7 @@
 <?php
 
+namespace hamsterDC;
+
 class Owner{
 
     public function __construct(){

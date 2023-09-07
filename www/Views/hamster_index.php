@@ -1,15 +1,16 @@
 <?php
 
-
-require_once '\Controller\HamsterController.php';
-require_once '\Controller\OwnerController.php';
-use Views\HamsterController;
-use Views\OwnerController;
-
-$hamster = new Hamster();
-$owner = new Owner();
+namespace hamsterDC;
 
 
-#$view = new HamsterController($_REQUEST);
+use Controller\HamsterController;
 
-#$view->WelcomeMessage();
+#require_once '\Controller\HamsterController.php';
+#require_once '\Controller\OwnerController.php';
+
+echo "Hello Hamster DC!";
+
+
+// TODO call class Hamster, add a new hamster and echo values, add autoloader
+
+http://localhost/Views/hamster_index.php
